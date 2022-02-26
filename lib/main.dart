@@ -3,6 +3,7 @@ import 'package:google_clone/colors.dart';
 import 'package:google_clone/responsive/mobilesreen_layout.dart';
 import 'package:google_clone/responsive/responsiv_layoutscreen.dart';
 import 'package:google_clone/responsive/webscreenlayout.dart';
+import 'package:google_clone/screen/search_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,8 +23,9 @@ scaffoldBackgroundColor: backgroundColor
       ),
       home: const ResponsiveLayoutScreen(
         mobileScreenLayout: MobileScreenLayout(),
-        webScreenLayout:WebScreenLayout() ,
-      ),
+        webScreenLayout:WebScreenLayout() ,)
+   
+      
     );
   }
 }

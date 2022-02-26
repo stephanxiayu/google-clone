@@ -12,7 +12,7 @@ class TranslationsButtons extends StatelessWidget {
       alignment: WrapAlignment.center,
       children:const [
         Text('Google offered in:'), 
- SizedBox(width: 5),
+        SizedBox(width: 5),
         LanguageText(title: 'DE'),
         SizedBox(width: 5),
         LanguageText(title: 'EN'),

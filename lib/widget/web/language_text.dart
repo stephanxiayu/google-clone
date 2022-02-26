@@ -1,6 +1,7 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:google_clone/colors.dart';
 
 class LanguageText extends StatelessWidget {
   final String title;
@@ -11,7 +12,7 @@ class LanguageText extends StatelessWidget {
     return InkWell(
       onTap: () {
         
-      },child: Text(title),
+      },child: Text(title, style:const TextStyle(color:blueColor),),
       
     );
   }
